@@ -2,9 +2,6 @@
 
 MDP（**Micro Domain Platform**）是一個基於 **.NET** 的開發平台，旨在為各類應用程式（**WebSite**、**iOS App**、**Android App**）提供高效、模組化的架構支援。
 
-
-## 平台架構
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/MDPCore/.github/refs/heads/main/docs/MDP-平台架構.png" width="500"/>
 </p>
