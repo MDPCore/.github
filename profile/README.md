@@ -2,7 +2,7 @@
 
 MDP（**Micro Domain Platform**）是一個基於 **.NET** 的開發平台，旨在為各類應用程式（**WebSite**、**iOS App**、**Android App**）提供高效、模組化的架構支援。
 
-<img src="https://raw.githubusercontent.com/MDPCore/.github/refs/heads/main/docs/MDP-平台架構.png" width="500"/>
+<img src="https://raw.githubusercontent.com/MDPCore/.github/refs/heads/main/docs/MDPCore-平台架構.png" width="500"/>
 
 MDP將應用系統切割為：模組、隔離、平台、函式庫四個分層，透過架構設計提供模組重用、參數調整、環境建置...等等面向的快速開發能力。
 
@@ -17,7 +17,7 @@ MDP將應用系統切割為：模組、隔離、平台、函式庫四個分層�
 
 ## 程式架構
 
-<img src="https://raw.githubusercontent.com/MDPCore/.github/refs/heads/main/docs/MDP-程式架構.png" width="500"/>
+<img src="https://raw.githubusercontent.com/MDPCore/.github/refs/heads/main/docs/MDPCore-程式架構.png" width="500"/>
 
 MDP遵循三層式架構，將模組開發切割為：系統展示、領域邏輯、資料存取三個分層，減少模組對於元件、平台、框架的直接依賴，提高模組自身的內聚力。
 
