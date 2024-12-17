@@ -22,7 +22,9 @@ MDP將應用系統切割為：模組、隔離、平台三個分層，透過架�
 
 ## 程式架構
 
-![MDP-程式架構](https://raw.githubusercontent.com/MDPCore/.github/refs/heads/main/docs/MDP-程式架構.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MDPCore/.github/refs/heads/main/docs/MDP-程式架構.png" width="500"/>
+</p>
 
 MDP遵循三層式架構，將模組開發切割為：系統展示、領域邏輯、資料存取三個分層，減少模組對於元件、平台、框架的直接依賴，提高模組自身的內聚力。
 
