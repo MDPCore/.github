@@ -1,6 +1,6 @@
 # Micro Domain Platform (MDP)
 
-MDP（**Micro Domain Platform**）是一個基於 **.NET** 的開發平台，旨在為各類應用程式（**WebSite**、**iOS App**、**Android App**）提供高效、模組化的架構支援。
+MDP（**Micro Domain Platform**）是一個基於 **DDD** 的開發平台，旨在為各類應用程式（**WebSite**、**iOS App**、**Android App**）提供高效、模組化的架構支援。
 
 <img src="https://raw.githubusercontent.com/MDPCore/.github/refs/heads/main/docs/MDPCore-平台架構.png" width="500"/>
 
@@ -15,9 +15,9 @@ MDP將應用系統切割為：模組、隔離、平台、函式庫四個分層�
 - 函式庫：MDP 提供「函式庫」的設計，提供各種基礎功能及工具，像是檔案存取、實體取號、記憶體快取、非同步執行...等函式庫，方便開發人員依照專案需求，快速導入各種基礎功能。
 
 
-## 程式架構
+## 軟體架構
 
-<img src="https://raw.githubusercontent.com/MDPCore/.github/refs/heads/main/docs/MDPCore-程式架構.png" width="500"/>
+<img src="https://raw.githubusercontent.com/MDPCore/.github/refs/heads/main/docs/MDPCore-軟體架構.png" width="500"/>
 
 MDP遵循三層式架構，將模組開發切割為：系統展示、領域邏輯、資料存取三個分層，減少模組對於元件、平台、框架的直接依賴，提高模組自身的內聚力。
 
@@ -27,7 +27,10 @@ MDP遵循三層式架構，將模組開發切割為：系統展示、領域邏�
 
 - 資料存取(Accesses)：資料庫的新增修改、遠端服務的呼叫調用...等等的功能邏輯，會被歸類在資料存取。例如，將資料存放到SQL Server、或者是從遠端API取得資料。
 
-MDP的模組程式遵循此分層，將每個模組拆解為五種類型的專案，依序命名為：
+
+## 專案架構
+
+MDP專案遵循軟體架構，將每個模組拆解為五種類型的專案，依序命名為：
 
 - Module001.csproj：領域邏輯專案。
 
@@ -38,6 +41,9 @@ MDP的模組程式遵循此分層，將每個模組拆解為五種類型的專�
 - Module001.Mocks.csproj：資料存取專案。(Mocks)
 
 - Module001.Accesses.csproj：資料存取專案。(SQL、REST、Cache)
+
+
+## 物件架構
 
 而在MDP的領域邏輯(Domain)裡，也加入了下列設計，來進一步提升程式開發速度。
 
